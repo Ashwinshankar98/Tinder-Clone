@@ -1,0 +1,29 @@
+.bimage{
+    position: relative;
+    background-color: beige;
+    width: 600px;
+    padding: 20px;
+    max-width: 85vw;
+    height: 50vh;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.tinderCards_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+}
+
+.swipe{
+    position: absolute;
+}
+
+.bimage h3 {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    margin: 10px;
+}
